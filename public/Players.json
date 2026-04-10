@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "type": "All-rounder",
+    "rating": 9.4,
+    "batting": "Left-hand bat",
+    "bowlling": "Left-arm orthodox",
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/WWYSpJhr/download-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "type": "Batsman",
+    "rating": 9.5,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm offbreak",
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/VYMr1MDg/Babar-Azam.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "type": "All-rounder",
+    "rating": 9.3,
+    "batting": "Left-hand bat",
+    "bowlling": "Right-arm fast-medium",
+    "price": 1300000,
+    "image": "https://i.ibb.co.com/3ybp4ymn/Ben-Stokes.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kane Williamson",
+    "country": "NewcZealand",
+    "type": "Batsman",
+    "rating": 9.2,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm offbreak",
+    "price": 1250000,
+    "image": "https://i.ibb.co.com/21VnNSjF/Kane-Williamson.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Virat Kohli",
+    "country": "India",
+    "type": "Batsman",
+    "rating": 9.8,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm medium",
+    "price": 1500000,
+    "image": "https://i.ibb.co.com/MX5B0z6/images.webp"
+  },
+  {
+    "id": 6,
+    "name": "Joe Root",
+    "country": "England",
+    "type": "Batsman",
+    "rating": 9.1,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm offbreak",
+    "price": 1150000,
+    "image": "https://i.ibb.co.com/GQmx2rv4/Joe-Root.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "type": "Batsman",
+    "rating": 9.4,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm legbreak",
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/4gZg6d47/Steve-Smith.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "type": "Bowler",
+    "rating": 9.6,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm fast",
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/4nHrtb03/Jasprit-Bumrah.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "type": "Bowler",
+    "rating": 9.3,
+    "batting": "Left-hand bat",
+    "bowllling": "Left-arm fast",
+    "price": 1380000,
+    "image": "https://i.ibb.co.com/XrgSxV2R/Mitchell-Starc.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "type": "Bowler",
+    "rating": 9.5,
+    "batting": "Right-hand bat",
+    "bowlling": "Right-arm legbreak",
+    "price": 1320000,
+    "image": "https://i.ibb.co.com/83CVmrY/Rashid-Khan.jpg"
+  }
+]

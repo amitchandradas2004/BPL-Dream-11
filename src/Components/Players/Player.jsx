@@ -3,7 +3,6 @@ import { FaFlag, FaUser } from "react-icons/fa";
 
 const Player = ({ player }) => {
   // console.log(player);
-
   return (
     <div className="card bg-gray-100   shadow-lg items-center content-center mx-auto py-3 rounded-2xl">
       <figure>
@@ -38,5 +37,4 @@ const Player = ({ player }) => {
     </div>
   );
 };
-
 export default Player;

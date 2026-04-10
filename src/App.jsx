@@ -1,9 +1,10 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h2 className="text-3xl">BPL-Dream-11</h2>
+      <Navbar></Navbar>
     </>
   );
 }

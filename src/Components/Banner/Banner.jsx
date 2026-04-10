@@ -21,7 +21,7 @@ const Banner = () => {
         </h2>
         <p className="opacity-80">Beyond Boundaries Beyond Limits</p>
 
-        <button className="btn btn-warning rounded-full text-black my-2">
+        <button className="btn bg-[#E7FE29] border-none rounded-full text-black my-2">
           Claim Free Credit
         </button>
       </div>

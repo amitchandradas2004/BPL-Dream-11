@@ -1,7 +1,7 @@
 import React from "react";
 import CricketImg from "../../assets/logo.png";
 import DollarIcon from "../../assets/dollar.png";
-const Navbar = () => {
+const Navbar = ({ coin }) => {
   return (
     <nav className=" shadow-md py-1">
       <div className="flex justify-between items-center container mx-auto">
@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
           <div>
             <button className="flex btn gap-2 rounded-full">
-              Coin <img src={DollarIcon} />
+              {coin} Coin <img src={DollarIcon} />
             </button>
           </div>
           {/* SideBar */}

@@ -4,6 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Navbar from "./Components/Navbar/Navbar";
 import Players from "./Components/Players/Players";
 import Newsletter from "./Components/Newsletter/Newsletter";
+import { ToastContainer } from "react-toastify";
 
 const fetchPlayer = async () => {
   const res = await fetch("Players.json");
@@ -34,6 +35,9 @@ function App() {
         ></Players>
       </Suspense>
       <Newsletter></Newsletter>
+
+      {/* React Toastify */}
+      <ToastContainer />
     </>
   );
 }

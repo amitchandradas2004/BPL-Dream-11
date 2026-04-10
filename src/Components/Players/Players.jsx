@@ -14,9 +14,9 @@ const Players = ({ playersPromise, setCoin, coin }) => {
     <div className="container mx-auto">
       <div className="flex justify-between items-center my-5">
         {selectedType === "available" ? (
-          <h2 className="text-3xl font-bold">Available Players</h2>
+          <h2 className="text-2xl font-bold">Available Players</h2>
         ) : (
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-2xl font-bold">
             Selected Player ({selectedPlayers.length}/{playersData.length})
           </h2>
         )}
@@ -54,8 +54,12 @@ const Players = ({ playersPromise, setCoin, coin }) => {
           ))}
         </div>
       ) : (
-        <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}  setCoin={setCoin}
-              coin={coin}></SelectedPlayers>
+        <SelectedPlayers
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
+          setCoin={setCoin}
+          coin={coin}
+        ></SelectedPlayers>
       )}
     </div>
   );

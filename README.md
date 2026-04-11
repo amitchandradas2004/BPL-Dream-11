@@ -1,5 +1,5 @@
 ---
-## 🏏 Cricket Dream 11 Team Builder
+# 🏏 Cricket Dream 11 Team Builder
 ---
 #### A responsive and interactive web application that allows users to create their own Dream 11 cricket team by selecting players, viewing details, and managing selections efficiently.
 ---

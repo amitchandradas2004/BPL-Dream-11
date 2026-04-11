@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="py-10 px-3 rounded-2xl w-full md:w-[80%] mx-auto mt-10  bg-linear-to-r from-[#a9c7d6] via-[#e6e6e6] to-[#e8c7a5]">
+    <div className="py-10 px-3 rounded-2xl w-full md:w-[80%] container mx-auto my-10  bg-linear-to-r from-[#a9c7d6] via-[#e6e6e6] to-[#e8c7a5]">
       <div className="text-center items-center space-y-3">
         <h3 className="text-3xl font-bold">Subscribe to our Newsletter</h3>
         <p>Get the latest updates and news right in your inbox!</p>

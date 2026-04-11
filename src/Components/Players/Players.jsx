@@ -11,7 +11,7 @@ const Players = ({ playersPromise, setCoin, coin }) => {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-2 md:px-0">
       <div className="flex justify-between items-center my-5">
         {selectedType === "available" ? (
           <h2 className="text-2xl font-bold">Available Players</h2>
@@ -20,7 +20,7 @@ const Players = ({ playersPromise, setCoin, coin }) => {
             Selected Player ({selectedPlayers.length}/{playersData.length})
           </h2>
         )}
-        <div>
+        <div className="flex flex-col md:flex-row">
           <button
             onClick={() => setSelectedType("available")}
             className={`btn rounded-r-none rounded-l-xl 

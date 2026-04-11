@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Players from "./Components/Players/Players";
 import Newsletter from "./Components/Newsletter/Newsletter";
 import { ToastContainer } from "react-toastify";
+import Footer from "./Components/Footer/Footer";
 
 const fetchPlayer = async () => {
   const res = await fetch("Players.json");
@@ -22,7 +23,7 @@ function Loader() {
 }
 function App() {
   const playersPromise = fetchPlayer();
-  const [coin, setCoin] = useState(5000);
+  const [coin, setCoin] = useState(50000);
   return (
     <>
       <Navbar coin={coin}></Navbar>
@@ -35,7 +36,7 @@ function App() {
         ></Players>
       </Suspense>
       <Newsletter></Newsletter>
-
+      <Footer></Footer>
       {/* React Toastify */}
       <ToastContainer />
     </>

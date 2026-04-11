@@ -3,7 +3,7 @@
 ---
 #### A responsive and interactive web application that allows users to create their own Dream 11 cricket team by selecting players, viewing details, and managing selections efficiently.
 ---
-# Live Link: [Watch](https://bpl-dream-11-using-react.netlify.app/)
+# Live Link: [Click Here](https://bpl-dream-11-using-react.netlify.app/)
 ---
 ## 🚀 Features
 ---
